@@ -9,10 +9,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class Script01 {
-	
-	public static void main(String[] args) throws Exception
+	@Test
+	public void test() throws Exception
 	{
 		String url = "jdbc:mysql://localhost:3306/qsp";
 		String username = "root";
